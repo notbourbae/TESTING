@@ -1,18 +1,36 @@
-## Getting Started
+# Kalkulator Sederhana Java ➕➖✖️➗
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Aplikasi konsol sederhana yang dibuat menggunakan **Java** untuk melakukan operasi aritmatika dasar: Penambahan, Pengurangan, Perkalian, dan Pembagian.
 
-## Folder Structure
+---
 
-The workspace contains two folders by default, where:
+## Fitur Utama
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+* **Operasi Dasar:** Mendukung `+`, `-`, `*`, dan `/`.
+* **Input Pengguna:** Menerima input angka (desimal/double) dan operator dari pengguna.
+* **Penanganan Error:** Memiliki pemeriksaan dasar untuk mencegah pembagian dengan nol (`/ 0`).
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+---
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Persyaratan
 
-## Dependency Management
+Untuk menjalankan kode ini, Anda memerlukan:
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+* **Java Development Kit (JDK)** terinstal di sistem Anda (versi 8 atau lebih baru).
+
+---
+
+## Cara Menjalankan
+
+Ikuti langkah-langkah berikut untuk mengompilasi dan menjalankan program dari terminal atau command prompt.
+
+### 1. Simpan Kode
+
+Pastikan kode di atas disimpan dalam berkas bernama **`Main.java`**.
+
+### 2. Kompilasi
+
+Buka terminal/command prompt, navigasikan ke direktori tempat Anda menyimpan `Main.java`, lalu kompilasi berkas:
+
+```bash
+javac Main.java
